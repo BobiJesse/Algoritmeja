@@ -1,2 +1,3 @@
-﻿  Programming Tasks.cpp
-  Programming Tasks.vcxproj -> C:\XAMK\GitHub\Algoritmeja\Algoritmit ja Tietorakenteet\x64\Debug\Programming Tasks.exe
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Programming Tasks.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  LinearBinarySearch.cpp
+  Programming Tasks.vcxproj -> C:\XAMK\GitHub\Algoritmeja\Algoritmit ja Tietorakenteet\x64\Debug\LinearBinarySearch.exe
