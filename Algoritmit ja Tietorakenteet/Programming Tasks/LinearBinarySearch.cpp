@@ -22,7 +22,7 @@ int main()
     Task2B();
 }
 
-void Task2A()
+void Task2A() //search a number from an array with both linear and binary search
 {
     cout << "-----------------Task 2.1-----------------" << endl;
 
@@ -42,7 +42,7 @@ void Task2A()
     BinarySearch(array, 20, numberToSearch, true);
 }
 
-void Task2B()
+void Task2B() //measure the time it takes to search a specific number from arrays of different sizes using both linear and binary search
 {
     std::random_device rd;
     std::mt19937 generator(rd());
@@ -59,7 +59,7 @@ void Task2B()
 
     int numberToSearch;
 
-    cout << "setting up arrays" << endl;
+    cout << "Setting up arrays" << endl;
 
     for (int i = 0; i < size1; i++)
     {
@@ -76,7 +76,7 @@ void Task2B()
         arr3[i] = i;
     }
 
-    cout << "calling linear and binary search part 1" << endl;
+    cout << "Calling linear and binary search part 1" << endl;
 
     std::uniform_int_distribution<int> distribution1(0, size1 - 1);
     numberToSearch = distribution1(generator);
@@ -105,7 +105,7 @@ void Task2B()
     delete[] arr3;
 }
 
-void CallLinearSearch(int array[], int size, int searchNumber)
+void CallLinearSearch(int array[], int size, int searchNumber) //measures the time it takes for the 100 searches in task2B using linear search
 {
     auto start = std::chrono::steady_clock::now();
 
@@ -120,7 +120,7 @@ void CallLinearSearch(int array[], int size, int searchNumber)
     cout << "Linear search duration for number " << searchNumber << " took: " << duration.count() << " microseconds" << endl;
 }
 
-void CallBinarySearch(int array[], int size, int searchNumber)
+void CallBinarySearch(int array[], int size, int searchNumber) //measures the time it takes for the 100 searches in task2B using binary search
 {
     auto start = std::chrono::steady_clock::now();
 
@@ -135,7 +135,7 @@ void CallBinarySearch(int array[], int size, int searchNumber)
     cout << "Binary search duration for number " << searchNumber << " took: " << duration.count() << " microseconds" << endl;
 }
 
-int LinearSearch(int arr[], int size, int searchedNumber, bool printResult)
+int LinearSearch(int arr[], int size, int searchedNumber, bool printResult) //search a specific number from an array using linear search
 {
     for (int i = 0; i < size; i++)
     {
@@ -155,7 +155,7 @@ int LinearSearch(int arr[], int size, int searchedNumber, bool printResult)
     return -1;
 }
 
-int BinarySearch(int arr[], int size, int searchedNumber, bool printResult)
+int BinarySearch(int arr[], int size, int searchedNumber, bool printResult) //search a specific number from an array using binary search
 {
     int low = 0;
     int high = size - 1;
