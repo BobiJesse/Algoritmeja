@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36414.22 d17.14
+VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Programming Tasks", "Programming Tasks\Programming Tasks.vcxproj", "{CAFB0848-1CD5-4D56-9E3C-CFBD8270328E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinearBinarySearch", "Programming Tasks\Programming Tasks.vcxproj", "{CAFB0848-1CD5-4D56-9E3C-CFBD8270328E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Programming tasks 3", "Programming tasks 3\Programming tasks 3.vcxproj", "{6062CC86-816C-492E-8939-8F3A74A05A4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{CAFB0848-1CD5-4D56-9E3C-CFBD8270328E}.Release|x64.Build.0 = Release|x64
 		{CAFB0848-1CD5-4D56-9E3C-CFBD8270328E}.Release|x86.ActiveCfg = Release|Win32
 		{CAFB0848-1CD5-4D56-9E3C-CFBD8270328E}.Release|x86.Build.0 = Release|Win32
+		{6062CC86-816C-492E-8939-8F3A74A05A4E}.Debug|x64.ActiveCfg = Debug|x64
+		{6062CC86-816C-492E-8939-8F3A74A05A4E}.Debug|x64.Build.0 = Debug|x64
+		{6062CC86-816C-492E-8939-8F3A74A05A4E}.Debug|x86.ActiveCfg = Debug|Win32
+		{6062CC86-816C-492E-8939-8F3A74A05A4E}.Debug|x86.Build.0 = Debug|Win32
+		{6062CC86-816C-492E-8939-8F3A74A05A4E}.Release|x64.ActiveCfg = Release|x64
+		{6062CC86-816C-492E-8939-8F3A74A05A4E}.Release|x64.Build.0 = Release|x64
+		{6062CC86-816C-492E-8939-8F3A74A05A4E}.Release|x86.ActiveCfg = Release|Win32
+		{6062CC86-816C-492E-8939-8F3A74A05A4E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

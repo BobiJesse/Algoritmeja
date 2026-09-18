@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CAFB0848-1CD5-4D56-9E3C-CFBD8270328E}|Programming Tasks\\Programming Tasks.vcxproj|C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Programming Tasks\\LinearBinarySearch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CAFB0848-1CD5-4D56-9E3C-CFBD8270328E}|Programming Tasks\\Programming Tasks.vcxproj|solutionrelative:Programming Tasks\\LinearBinarySearch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6062CC86-816C-492E-8939-8F3A74A05A4E}|Programming tasks 3\\Programming tasks 3.vcxproj|C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Programming tasks 3\\Programming tasks 3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6062CC86-816C-492E-8939-8F3A74A05A4E}|Programming tasks 3\\Programming tasks 3.vcxproj|solutionrelative:Programming tasks 3\\Programming tasks 3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LinearBinarySearch.cpp",
-              "DocumentMoniker": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Programming Tasks\\LinearBinarySearch.cpp",
-              "RelativeDocumentMoniker": "Programming Tasks\\LinearBinarySearch.cpp",
-              "ToolTip": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Programming Tasks\\LinearBinarySearch.cpp",
-              "RelativeToolTip": "Programming Tasks\\LinearBinarySearch.cpp",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEsAAAAUAAAAAAAAAA==",
+              "Title": "Programming tasks 3.cpp",
+              "DocumentMoniker": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Programming tasks 3\\Programming tasks 3.cpp",
+              "RelativeDocumentMoniker": "Programming tasks 3\\Programming tasks 3.cpp",
+              "ToolTip": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Programming tasks 3\\Programming tasks 3.cpp",
+              "RelativeToolTip": "Programming tasks 3\\Programming tasks 3.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-09-13T13:02:40.531Z",
+              "WhenOpened": "2026-09-18T09:31:20.35Z",
               "EditorCaption": ""
             }
           ]
