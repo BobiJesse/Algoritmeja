@@ -21,12 +21,12 @@ int main()
     cin >> chosenNumber;
     Task3A(chosenNumber);
 
-    int ackermanNumber1;
-    int ackermanNumber2;
+    int ackermanNumber1; //number for m in A(m,n)
+    int ackermanNumber2; //number for n in A(m,n)
 
     cout << "------------------------------Ackerman function------------------------------------" << endl << endl;
 
-    cout << "Please enter two (number) values to be used in ackerman funciton" << endl;
+    cout << "Please enter two (number) values to be used in ackerman funciton A(m,n)" << endl;
     cout << "Number1: ";
     cin >> ackermanNumber1;
 
@@ -35,9 +35,9 @@ int main()
     Task3B(ackermanNumber1, ackermanNumber2);
 }
 
-void Task3A(int n)
+void Task3A(int n) //fibonacci function
 {
-
+    //with array
     int* fibonacciNumbers = new int[n + 1];
 
     fibonacciNumbers[0] = 1;
@@ -50,6 +50,7 @@ void Task3A(int n)
 
     cout << "With array: Fibonacci number f(" << n << ") = " << fibonacciNumbers[n] << endl;
 
+    //without array
     int previousNumber = 1;
     int currentNumber = 1;
 
@@ -64,10 +65,10 @@ void Task3A(int n)
     cout << "Without array: Fibonacci number f(" << n << ") = " << currentNumber << endl << endl;
 }
 
-void Task3B(int m, int n)
+void Task3B(int m, int n) //ackerman function
 {
 
-    if (m < 0 || n < 0)
+    if (m < 0 || n < 0) //prevent negative numbers
     {
         cout << "Please only enter positive whole numbers" << endl;
         return;
@@ -95,14 +96,3 @@ int ackermanFunction(int m, int n)
         return ackermanFunction(m - 1, ackermanFunction(m, n - 1));
     }
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
