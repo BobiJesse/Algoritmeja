@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D8BB3F53-842A-48D8-9F32-38EA6D88F83A}|Programming tasks 5\\Programming tasks 5.vcxproj|C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Programming tasks 5\\Programming tasks 5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D8BB3F53-842A-48D8-9F32-38EA6D88F83A}|Programming tasks 5\\Programming tasks 5.vcxproj|solutionrelative:Programming tasks 5\\Programming tasks 5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F9A062D1-2487-4549-9C93-06CBFE31F5B2}|Programming tasks 4\\Programming tasks 4.vcxproj|C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Programming tasks 4\\Programming tasks 4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F9A062D1-2487-4549-9C93-06CBFE31F5B2}|Programming tasks 4\\Programming tasks 4.vcxproj|solutionrelative:Programming tasks 4\\Programming tasks 4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -27,6 +31,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Programming tasks 5.cpp",
+              "DocumentMoniker": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Programming tasks 5\\Programming tasks 5.cpp",
+              "RelativeDocumentMoniker": "Programming tasks 5\\Programming tasks 5.cpp",
+              "ToolTip": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Programming tasks 5\\Programming tasks 5.cpp",
+              "RelativeToolTip": "Programming tasks 5\\Programming tasks 5.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-06T12:15:23.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Programming tasks 4.cpp",
               "DocumentMoniker": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Programming tasks 4\\Programming tasks 4.cpp",
               "RelativeDocumentMoniker": "Programming tasks 4\\Programming tasks 4.cpp",
@@ -39,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Programming tasks 3.cpp",
               "DocumentMoniker": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Programming tasks 3\\Programming tasks 3.cpp",
               "RelativeDocumentMoniker": "Programming tasks 3\\Programming tasks 3.cpp",
@@ -47,12 +64,11 @@
               "RelativeToolTip": "Programming tasks 3\\Programming tasks 3.cpp",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-09-18T09:31:20.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-18T09:31:20.35Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LinearBinarySearch.cpp",
               "DocumentMoniker": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Programming Tasks\\LinearBinarySearch.cpp",
               "RelativeDocumentMoniker": "Programming Tasks\\LinearBinarySearch.cpp",
@@ -60,8 +76,7 @@
               "RelativeToolTip": "Programming Tasks\\LinearBinarySearch.cpp",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAC8AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-09-29T11:13:25.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-29T11:13:25.146Z"
             }
           ]
         }
