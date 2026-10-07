@@ -123,12 +123,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Users\Jesse\Downloads\LinkedList\Programming task5_LinkedList.cpp" />
-    <ClCompile Include="..\..\..\..\..\Users\Jesse\Downloads\LinkedList\Programming task 5_Main.cpp" />
+    <ClCompile Include="Programming task 5_Main.cpp" />
+    <ClCompile Include="Programming task5_LinkedList.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Users\Jesse\Downloads\LinkedList\linkedlist.h" />
-    <ClInclude Include="..\..\..\..\..\Users\Jesse\Downloads\LinkedList\node.h" />
+    <ClInclude Include="linkedlist.h" />
+    <ClInclude Include="node.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

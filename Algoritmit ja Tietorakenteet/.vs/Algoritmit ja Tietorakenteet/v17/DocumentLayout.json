@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D8BB3F53-842A-48D8-9F32-38EA6D88F83A}|Programming tasks 5\\Programming tasks 5.vcxproj|C:\\Users\\Jesse\\Downloads\\LinkedList\\Programming task 5_Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{D8BB3F53-842A-48D8-9F32-38EA6D88F83A}|Programming tasks 5\\Programming tasks 5.vcxproj|C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Programming tasks 5\\linkedlist.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D8BB3F53-842A-48D8-9F32-38EA6D88F83A}|Programming tasks 5\\Programming tasks 5.vcxproj|solutionrelative:Programming tasks 5\\linkedlist.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8BB3F53-842A-48D8-9F32-38EA6D88F83A}|Programming tasks 5\\Programming tasks 5.vcxproj|C:\\Users\\Jesse\\Downloads\\LinkedList\\Programming task5_LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{D8BB3F53-842A-48D8-9F32-38EA6D88F83A}|Programming tasks 5\\Programming tasks 5.vcxproj|C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Programming tasks 5\\node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D8BB3F53-842A-48D8-9F32-38EA6D88F83A}|Programming tasks 5\\Programming tasks 5.vcxproj|solutionrelative:Programming tasks 5\\node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8BB3F53-842A-48D8-9F32-38EA6D88F83A}|Programming tasks 5\\Programming tasks 5.vcxproj|C:\\Users\\Jesse\\Downloads\\LinkedList\\node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{D8BB3F53-842A-48D8-9F32-38EA6D88F83A}|Programming tasks 5\\Programming tasks 5.vcxproj|C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Programming tasks 5\\Programming task5_LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D8BB3F53-842A-48D8-9F32-38EA6D88F83A}|Programming tasks 5\\Programming tasks 5.vcxproj|solutionrelative:Programming tasks 5\\Programming task5_LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8BB3F53-842A-48D8-9F32-38EA6D88F83A}|Programming tasks 5\\Programming tasks 5.vcxproj|C:\\Users\\Jesse\\Downloads\\LinkedList\\linkedlist.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{D8BB3F53-842A-48D8-9F32-38EA6D88F83A}|Programming tasks 5\\Programming tasks 5.vcxproj|C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Programming tasks 5\\Programming task 5_Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D8BB3F53-842A-48D8-9F32-38EA6D88F83A}|Programming tasks 5\\Programming tasks 5.vcxproj|solutionrelative:Programming tasks 5\\Programming task 5_Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F9A062D1-2487-4549-9C93-06CBFE31F5B2}|Programming tasks 4\\Programming tasks 4.vcxproj|C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Programming tasks 4\\Programming tasks 4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -34,59 +38,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "node.h",
-              "DocumentMoniker": "C:\\Users\\Jesse\\Downloads\\LinkedList\\node.h",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\Jesse\\Downloads\\LinkedList\\node.h",
-              "ToolTip": "C:\\Users\\Jesse\\Downloads\\LinkedList\\node.h",
-              "RelativeToolTip": "..\\..\\..\\..\\Users\\Jesse\\Downloads\\LinkedList\\node.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-10-07T08:15:25.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "linkedlist.h",
-              "DocumentMoniker": "C:\\Users\\Jesse\\Downloads\\LinkedList\\linkedlist.h",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\Jesse\\Downloads\\LinkedList\\linkedlist.h",
-              "ToolTip": "C:\\Users\\Jesse\\Downloads\\LinkedList\\linkedlist.h",
-              "RelativeToolTip": "..\\..\\..\\..\\Users\\Jesse\\Downloads\\LinkedList\\linkedlist.h",
+              "DocumentMoniker": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Programming tasks 5\\linkedlist.h",
+              "RelativeDocumentMoniker": "Programming tasks 5\\linkedlist.h",
+              "ToolTip": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Programming tasks 5\\linkedlist.h",
+              "RelativeToolTip": "Programming tasks 5\\linkedlist.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-10-07T08:15:23.135Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Programming task 5_Main.cpp",
-              "DocumentMoniker": "C:\\Users\\Jesse\\Downloads\\LinkedList\\Programming task 5_Main.cpp",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\Jesse\\Downloads\\LinkedList\\Programming task 5_Main.cpp",
-              "ToolTip": "C:\\Users\\Jesse\\Downloads\\LinkedList\\Programming task 5_Main.cpp",
-              "RelativeToolTip": "..\\..\\..\\..\\Users\\Jesse\\Downloads\\LinkedList\\Programming task 5_Main.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-10-07T08:13:53.037Z",
+              "WhenOpened": "2026-10-07T12:19:56.85Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "node.h",
+              "DocumentMoniker": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Programming tasks 5\\node.h",
+              "RelativeDocumentMoniker": "Programming tasks 5\\node.h",
+              "ToolTip": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Programming tasks 5\\node.h",
+              "RelativeToolTip": "Programming tasks 5\\node.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-10-07T12:19:55.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Programming task5_LinkedList.cpp",
-              "DocumentMoniker": "C:\\Users\\Jesse\\Downloads\\LinkedList\\Programming task5_LinkedList.cpp",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\Jesse\\Downloads\\LinkedList\\Programming task5_LinkedList.cpp",
-              "ToolTip": "C:\\Users\\Jesse\\Downloads\\LinkedList\\Programming task5_LinkedList.cpp",
-              "RelativeToolTip": "..\\..\\..\\..\\Users\\Jesse\\Downloads\\LinkedList\\Programming task5_LinkedList.cpp",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAACsAAAAaAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Programming tasks 5\\Programming task5_LinkedList.cpp",
+              "RelativeDocumentMoniker": "Programming tasks 5\\Programming task5_LinkedList.cpp",
+              "ToolTip": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Programming tasks 5\\Programming task5_LinkedList.cpp",
+              "RelativeToolTip": "Programming tasks 5\\Programming task5_LinkedList.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-10-07T08:12:02.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-07T12:19:54.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Programming task 5_Main.cpp",
+              "DocumentMoniker": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Programming tasks 5\\Programming task 5_Main.cpp",
+              "RelativeDocumentMoniker": "Programming tasks 5\\Programming task 5_Main.cpp",
+              "ToolTip": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Programming tasks 5\\Programming task 5_Main.cpp",
+              "RelativeToolTip": "Programming tasks 5\\Programming task 5_Main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-07T12:19:43.276Z"
             },
             {
               "$type": "Document",

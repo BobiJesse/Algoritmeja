@@ -15,18 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Users\Jesse\Downloads\LinkedList\Programming task5_LinkedList.cpp">
+    <ClCompile Include="Programming task 5_Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Users\Jesse\Downloads\LinkedList\Programming task 5_Main.cpp">
+    <ClCompile Include="Programming task5_LinkedList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Users\Jesse\Downloads\LinkedList\linkedlist.h">
+    <ClInclude Include="linkedlist.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Users\Jesse\Downloads\LinkedList\node.h">
+    <ClInclude Include="node.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
