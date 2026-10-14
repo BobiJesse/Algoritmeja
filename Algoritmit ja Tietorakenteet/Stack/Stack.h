@@ -4,6 +4,10 @@
 template<typename T> class Stack
 {
 public:
+	Stack()
+	{
+		pTop = nullptr;
+	}
 	bool IsEmpty() { return pTop == nullptr; }
 	void Push(T data)
 	{
@@ -15,7 +19,8 @@ public:
 	{
 		if (IsEmpty())
 		{
-			return static_cast<T>(-1); //return -1 if stack is empty
+			//return static_cast<T>(-1); //return -1 if stack is empty
+			return T{};
 		}
 
 		//The stack is not empty, so lets pop!
@@ -29,11 +34,12 @@ public:
 
 		return value;
 	}
-	int Top()
+	T Top()
 	{
 		if (IsEmpty())
 		{
-			return static_cast<T>(-1);
+			//return static_cast<T>(-1);
+			return T{};
 		}
 
 		return pTop->data;
