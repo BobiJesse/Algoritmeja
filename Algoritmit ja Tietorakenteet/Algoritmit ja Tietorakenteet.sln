@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Programming tasks 5", "Prog
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stack", "Stack\Stack.vcxproj", "{07E2C565-BAEE-4B01-80B5-396FDE9A3E44}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Binary Search Tree", "Binary Search Tree\Binary Search Tree.vcxproj", "{546A7238-ECC7-4A64-914E-C4011F5498E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{07E2C565-BAEE-4B01-80B5-396FDE9A3E44}.Release|x64.Build.0 = Release|x64
 		{07E2C565-BAEE-4B01-80B5-396FDE9A3E44}.Release|x86.ActiveCfg = Release|Win32
 		{07E2C565-BAEE-4B01-80B5-396FDE9A3E44}.Release|x86.Build.0 = Release|Win32
+		{546A7238-ECC7-4A64-914E-C4011F5498E1}.Debug|x64.ActiveCfg = Debug|x64
+		{546A7238-ECC7-4A64-914E-C4011F5498E1}.Debug|x64.Build.0 = Debug|x64
+		{546A7238-ECC7-4A64-914E-C4011F5498E1}.Debug|x86.ActiveCfg = Debug|Win32
+		{546A7238-ECC7-4A64-914E-C4011F5498E1}.Debug|x86.Build.0 = Debug|Win32
+		{546A7238-ECC7-4A64-914E-C4011F5498E1}.Release|x64.ActiveCfg = Release|x64
+		{546A7238-ECC7-4A64-914E-C4011F5498E1}.Release|x64.Build.0 = Release|x64
+		{546A7238-ECC7-4A64-914E-C4011F5498E1}.Release|x86.ActiveCfg = Release|Win32
+		{546A7238-ECC7-4A64-914E-C4011F5498E1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

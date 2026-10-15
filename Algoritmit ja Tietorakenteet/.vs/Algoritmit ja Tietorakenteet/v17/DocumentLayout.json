@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{07E2C565-BAEE-4B01-80B5-396FDE9A3E44}|Stack\\Stack.vcxproj|C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Stack\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{07E2C565-BAEE-4B01-80B5-396FDE9A3E44}|Stack\\Stack.vcxproj|solutionrelative:Stack\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{546A7238-ECC7-4A64-914E-C4011F5498E1}|Binary Search Tree\\Binary Search Tree.vcxproj|C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Binary Search Tree\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{546A7238-ECC7-4A64-914E-C4011F5498E1}|Binary Search Tree\\Binary Search Tree.vcxproj|solutionrelative:Binary Search Tree\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07E2C565-BAEE-4B01-80B5-396FDE9A3E44}|Stack\\Stack.vcxproj|C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Stack\\Stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{07E2C565-BAEE-4B01-80B5-396FDE9A3E44}|Stack\\Stack.vcxproj|solutionrelative:Stack\\Stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{546A7238-ECC7-4A64-914E-C4011F5498E1}|Binary Search Tree\\Binary Search Tree.vcxproj|C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Binary Search Tree\\bst.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{546A7238-ECC7-4A64-914E-C4011F5498E1}|Binary Search Tree\\Binary Search Tree.vcxproj|solutionrelative:Binary Search Tree\\bst.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07E2C565-BAEE-4B01-80B5-396FDE9A3E44}|Stack\\Stack.vcxproj|C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Stack\\node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{07E2C565-BAEE-4B01-80B5-396FDE9A3E44}|Stack\\Stack.vcxproj|solutionrelative:Stack\\node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{546A7238-ECC7-4A64-914E-C4011F5498E1}|Binary Search Tree\\Binary Search Tree.vcxproj|C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Binary Search Tree\\bst.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{546A7238-ECC7-4A64-914E-C4011F5498E1}|Binary Search Tree\\Binary Search Tree.vcxproj|solutionrelative:Binary Search Tree\\bst.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{546A7238-ECC7-4A64-914E-C4011F5498E1}|Binary Search Tree\\Binary Search Tree.vcxproj|C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Binary Search Tree\\bstNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{546A7238-ECC7-4A64-914E-C4011F5498E1}|Binary Search Tree\\Binary Search Tree.vcxproj|solutionrelative:Binary Search Tree\\bstNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "node.h",
-              "DocumentMoniker": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Stack\\node.h",
-              "RelativeDocumentMoniker": "Stack\\node.h",
-              "ToolTip": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Stack\\node.h",
-              "RelativeToolTip": "Stack\\node.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-10-08T07:55:13.397Z"
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Binary Search Tree\\main.cpp",
+              "RelativeDocumentMoniker": "Binary Search Tree\\main.cpp",
+              "ToolTip": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Binary Search Tree\\main.cpp",
+              "RelativeToolTip": "Binary Search Tree\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-15T08:42:23.483Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Main.cpp",
-              "DocumentMoniker": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Stack\\Main.cpp",
-              "RelativeDocumentMoniker": "Stack\\Main.cpp",
-              "ToolTip": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Stack\\Main.cpp",
-              "RelativeToolTip": "Stack\\Main.cpp",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAHEAAAARAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "bst.cpp",
+              "DocumentMoniker": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Binary Search Tree\\bst.cpp",
+              "RelativeDocumentMoniker": "Binary Search Tree\\bst.cpp",
+              "ToolTip": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Binary Search Tree\\bst.cpp",
+              "RelativeToolTip": "Binary Search Tree\\bst.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-10-08T07:00:46.609Z",
+              "WhenOpened": "2026-10-15T08:20:01.328Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Stack.h",
-              "DocumentMoniker": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Stack\\Stack.h",
-              "RelativeDocumentMoniker": "Stack\\Stack.h",
-              "ToolTip": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Stack\\Stack.h",
-              "RelativeToolTip": "Stack\\Stack.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Title": "bst.h",
+              "DocumentMoniker": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Binary Search Tree\\bst.h",
+              "RelativeDocumentMoniker": "Binary Search Tree\\bst.h",
+              "ToolTip": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Binary Search Tree\\bst.h",
+              "RelativeToolTip": "Binary Search Tree\\bst.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-10-08T06:57:02.76Z",
+              "WhenOpened": "2026-10-15T08:14:54.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "bstNode.h",
+              "DocumentMoniker": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Binary Search Tree\\bstNode.h",
+              "RelativeDocumentMoniker": "Binary Search Tree\\bstNode.h",
+              "ToolTip": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Binary Search Tree\\bstNode.h",
+              "RelativeToolTip": "Binary Search Tree\\bstNode.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-10-15T08:10:38.858Z",
               "EditorCaption": ""
             }
           ]
