@@ -1,4 +1,5 @@
 #include "bst.h"
+#include <iostream>
 
 //This inserts smaller values left
 //and equal or greater values right
@@ -17,7 +18,7 @@ void BST::Insert(int key)
 	{
 		//The tree is NOT empty...
 		BSTNode* pCurrent = pRoot;
-		BSTNode* pCandidate = pRoot;
+		BSTNode* pCandidate = pRoot; //pointer for next node
 
 		while (pCandidate != nullptr)
 		{
@@ -42,4 +43,9 @@ void BST::Insert(int key)
 			pCurrent->pRight = pNewNode;
 		}
 	}
+}
+
+void BST::Print()
+{
+	std::cout << pRoot->key << std::endl;
 }

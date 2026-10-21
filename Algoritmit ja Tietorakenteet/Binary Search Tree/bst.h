@@ -17,6 +17,8 @@ public:
 
 	void Insert(int key);
 
+	void Print();
+
 private:
 	//Pointer to the root-node of the BST
 	BSTNode* pRoot;
