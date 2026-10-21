@@ -1,5 +1,6 @@
 #include "bst.h"
 #include <iostream>
+#include <queue>
 
 //This inserts smaller values left
 //and equal or greater values right
@@ -47,5 +48,133 @@ void BST::Insert(int key)
 
 void BST::Print()
 {
-	std::cout << pRoot->key << std::endl;
+	if (IsEmpty())
+	{
+		return;
+	}
+
+	std::queue<BSTNode*> nodeQueue;
+	nodeQueue.push(pRoot);
+
+	while (!nodeQueue.empty())
+	{
+		int queueSize = nodeQueue.size();
+
+		for (int i = 0; i < queueSize; i++)
+		{
+			BSTNode* pCurrent = nodeQueue.front();
+
+			nodeQueue.pop();
+
+			std::cout << pCurrent->key << " ";
+
+			if (pCurrent->pLeft != nullptr)
+			{
+				nodeQueue.push(pCurrent->pLeft);
+			}
+
+			if (pCurrent->pRight != nullptr)
+			{
+				nodeQueue.push(pCurrent->pRight);
+			}
+		}
+
+		std::cout << std::endl;
+	}
+}
+
+void BST::PrintSimple()
+{
+	PrintNode(pRoot);
+}
+
+void BST::PrintNode(BSTNode* _node)
+{
+	if (_node == nullptr)
+	{
+		return;
+	}
+
+	std::cout << _node->key << std::endl;
+
+	if (_node->pLeft != NULL)
+	{
+		PrintNode(_node->pLeft);
+	}
+
+	if (_node->pRight != NULL)
+	{
+		PrintNode(_node->pRight);
+	}
+}
+
+bool BST::FindKey(int _key) //Checks if key is found inside BST
+{
+	BSTNode* pCurrent = pRoot;
+
+	while (pCurrent != nullptr)
+	{
+		if (_key == pCurrent->key)
+		{
+			return true;
+		}
+		else if (_key < pCurrent->key)
+		{
+			pCurrent = pCurrent->pLeft;
+			continue;
+		}
+		else
+		{
+			pCurrent = pCurrent->pRight;
+		}
+	}
+	return false;
+}
+
+int BST::CountNodes()
+{
+	int numberOfNodes = CountNode(pRoot);
+
+	return numberOfNodes;
+}
+
+int BST::CountNode(BSTNode* _node)
+{
+	if (_node == nullptr)
+	{
+		return 0;
+	}
+
+	int _leftCount = CountNode(_node->pLeft);
+
+	int _rightCount = CountNode(_node->pRight);
+
+	return _leftCount + _rightCount + 1;
+}
+
+int BST::CountLeaves()
+{
+	int numberOfLeaves = CountLeaf(pRoot);
+
+	return numberOfLeaves;
+}
+
+int BST::CountLeaf(BSTNode* _node)
+{
+	if (_node == nullptr)
+	{
+		return 0;
+	}
+
+	int _leftCount = CountLeaf(_node->pLeft);
+	int _rightCount = CountLeaf(_node->pRight);
+
+	if (_node->pLeft == nullptr && _node->pRight == nullptr)
+	{
+		return _leftCount + _rightCount + 1;
+	}
+	else
+	{
+		return _leftCount + _rightCount;
+	}
 }

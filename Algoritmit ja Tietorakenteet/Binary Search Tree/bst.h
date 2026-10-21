@@ -17,7 +17,21 @@ public:
 
 	void Insert(int key);
 
+	void PrintSimple();
+
 	void Print();
+
+	void PrintNode(BSTNode* _node);
+
+	bool FindKey(int _key);
+
+	int CountNodes();
+
+	int CountNode(BSTNode* _node);
+
+	int CountLeaves();
+
+	int CountLeaf(BSTNode* _node);
 
 private:
 	//Pointer to the root-node of the BST
