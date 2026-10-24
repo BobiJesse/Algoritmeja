@@ -195,10 +195,10 @@ bool BST::Delete(int _key)
 		if (_key == pCurrent->key) //Value of key found
 		{
 			//=========================ROOT===========================
-			if (pCurrent == pRoot && pPrevious == pRoot) //Check if deleted node is the root
+			if (pCurrent == pRoot && pPrevious == pRoot && pCurrent->pLeft == nullptr && pCurrent->pRight == nullptr) //Check if deleted node is the root with no children
 			{
 				pRoot = nullptr;
-				std::cout << "Deleted node was the root of the BST, deleting that node..." << std::endl;
+				std::cout << "Deleted node was the root of the BST with no child nodes, deleting that node..." << std::endl;
 				delete pCurrent;
 				return true;
 			}
