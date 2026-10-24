@@ -33,6 +33,8 @@ public:
 
 	int CountLeaf(BSTNode* _node);
 
+	bool Delete(int _key);
+
 private:
 	//Pointer to the root-node of the BST
 	BSTNode* pRoot;

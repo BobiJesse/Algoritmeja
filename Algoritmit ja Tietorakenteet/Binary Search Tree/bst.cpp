@@ -178,3 +178,63 @@ int BST::CountLeaf(BSTNode* _node)
 		return _leftCount + _rightCount;
 	}
 }
+
+bool BST::Delete(int _key)
+{
+	if (IsEmpty())
+	{
+		std::cout << "BST already empty, returning false" << std::endl;
+		return false;
+	}
+
+	BSTNode* pCurrent = pRoot;
+	BSTNode* pPrevious = pRoot;
+
+	while (pCurrent != nullptr)
+	{
+		if (_key == pCurrent->key) //Value of key found
+		{
+			//=========================ROOT===========================
+			if (pCurrent == pRoot && pPrevious == pRoot) //Check if deleted node is the root
+			{
+				pRoot = nullptr;
+				std::cout << "Deleted node was the root of the BST, deleting that node..." << std::endl;
+				delete pCurrent;
+				return true;
+			}
+
+			//=========================LEAF===========================
+			if (pCurrent->pLeft == nullptr && pCurrent->pRight == nullptr) //Deleted node is a leaf
+			{
+				std::cout << "Deleted node was a leaf, deleting that node..." << std::endl;
+				if (pCurrent->key < pPrevious->key) //Parent node is bigger than current
+				{
+					pPrevious->pLeft = nullptr;
+					delete pCurrent;
+				}
+				else //Parent node is smaller or same size as current
+				{
+					pPrevious->pRight = nullptr;
+					delete pCurrent;
+				}
+				return true;
+			}
+
+			//=========================NODE WITH CHILDREN===========================
+			std::cout << "Node has children. Deletion not implemented yet." << std::endl;
+			return false;
+		}
+		else if (_key < pCurrent->key) //Value is bigger than searched key
+		{
+			pPrevious = pCurrent;
+			pCurrent = pCurrent->pLeft;
+			continue;
+		}
+		else //Value is smaller than searched key
+		{
+			pPrevious = pCurrent;
+			pCurrent = pCurrent->pRight;
+		}
+	}
+	return false;
+}
