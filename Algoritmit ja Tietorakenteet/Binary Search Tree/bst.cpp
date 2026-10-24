@@ -220,9 +220,77 @@ bool BST::Delete(int _key)
 				return true;
 			}
 
-			//=========================NODE WITH CHILDREN===========================
-			std::cout << "Node has children. Deletion not implemented yet." << std::endl;
-			return false;
+			//=========================NODE WITH 2 CHILDREN===========================
+			if (pCurrent->pLeft != nullptr && pCurrent->pRight != nullptr)
+			{
+				BSTNode* pReplaceParent = pCurrent;
+				BSTNode* pReplace = pCurrent->pRight;
+
+				//Search for the smallest value on the right
+				while (pReplace->pLeft != nullptr)
+				{
+					pReplaceParent = pReplace;
+					pReplace = pReplace->pLeft;
+				}
+
+				pCurrent->key = pReplace->key;
+
+				if (pReplaceParent->pLeft == pReplace)
+				{
+					pReplaceParent->pLeft = pReplace->pRight; //Connect parent with right node
+				}
+				else
+				{
+					pReplaceParent->pRight = pReplace->pRight;
+				}
+
+				delete pReplace;
+				return true;
+			}
+
+			//=========================NODE WITH 1 CHILD===========================
+			if (pCurrent->pLeft != nullptr) //Current node has a child node on the left side
+			{
+				if (pCurrent == pRoot)
+				{
+					pRoot = pCurrent->pLeft;
+					delete pCurrent;
+					return true;
+				}
+
+				if (pPrevious->pLeft == pCurrent) //Parent node is on the right
+				{
+					pPrevious->pLeft = pCurrent->pLeft;
+					delete pCurrent;
+				}
+				else //Parent node is on the left
+				{
+					pPrevious->pRight = pCurrent->pLeft;
+					delete pCurrent;
+				}
+				return true;
+			}
+			else if (pCurrent->pRight != nullptr) //Current node has a child node on the right side
+			{
+				if (pCurrent == pRoot)
+				{
+					pRoot = pCurrent->pRight;
+					delete pCurrent;
+					return true;
+				}
+
+				if (pPrevious->pRight == pCurrent) //Parent node is on the left side
+				{
+					pPrevious->pRight = pCurrent->pRight;
+					delete pCurrent;
+				}
+				else //Parent node is on the right side
+				{
+					pPrevious->pLeft = pCurrent->pRight;
+					delete pCurrent;
+				}
+				return true;
+			}
 		}
 		else if (_key < pCurrent->key) //Value is bigger than searched key
 		{

@@ -40,8 +40,26 @@ int main()
 	std::cout << "Number of leaves in the BST: " << bst.CountLeaves() << std::endl;
 
 	std::cout << std::endl << "=================== Programming Task 7.2 =========================" << std::endl << std::endl;
-	std::cout << std::endl << "Deleting a node..." << std::endl << std::endl;
+
+	std::cout << "Printing the original BST" << std::endl << std::endl;
+	bst.Print();
+	std::cout << std::endl << "Deleting 5 node" << std::endl << std::endl;
 	bst.Delete(5);
+
+	std::cout << "Printing the new BST..." << std::endl << std::endl;
+	bst.Print();
+
+	std::cout << std::endl << "Deleting 2 node" << std::endl << std::endl;
+	bst.Delete(2);
+
+	std::cout << "Printing the new BST..." << std::endl << std::endl;
+	bst.Print();
+
+	std::cout << std::endl << "Deleting 3 node" << std::endl << std::endl;
+	bst.Delete(3);
+
+	std::cout << "Printing the new BST..." << std::endl << std::endl;
+	bst.Print();
 
 
 	return EXIT_SUCCESS;
