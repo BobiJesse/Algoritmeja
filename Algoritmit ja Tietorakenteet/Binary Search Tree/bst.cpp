@@ -46,9 +46,9 @@ void BST::Insert(int key)
 	}
 }
 
-void BST::Print()
+void BST::Print() //Prints the BST one level at a time using queue
 {
-	if (IsEmpty())
+	if (IsEmpty()) //Check if the BST is empty
 	{
 		return;
 	}
@@ -56,11 +56,11 @@ void BST::Print()
 	std::queue<BSTNode*> nodeQueue;
 	nodeQueue.push(pRoot);
 
-	while (!nodeQueue.empty())
+	while (!nodeQueue.empty()) //Loop when nodeQueue is not empty
 	{
 		int queueSize = nodeQueue.size();
 
-		for (int i = 0; i < queueSize; i++)
+		for (int i = 0; i < queueSize; i++) //Loop through one level oof BST
 		{
 			BSTNode* pCurrent = nodeQueue.front();
 
@@ -68,12 +68,12 @@ void BST::Print()
 
 			std::cout << pCurrent->key << " ";
 
-			if (pCurrent->pLeft != nullptr)
+			if (pCurrent->pLeft != nullptr) //Check if current node has a left node
 			{
 				nodeQueue.push(pCurrent->pLeft);
 			}
 
-			if (pCurrent->pRight != nullptr)
+			if (pCurrent->pRight != nullptr) //Check if current node has a right node
 			{
 				nodeQueue.push(pCurrent->pRight);
 			}
@@ -83,28 +83,28 @@ void BST::Print()
 	}
 }
 
-void BST::PrintSimple()
+void BST::PrintSimple() //Print the BST by using recursive calls, goes through the BST by going first left and then right
 {
 	PrintNode(pRoot);
 }
 
-void BST::PrintNode(BSTNode* _node)
+void BST::PrintNode(BSTNode* _node) //Recursive call of node in BST
 {
-	if (_node == nullptr)
+	if (_node == nullptr) //nullptr check
 	{
 		return;
 	}
 
 	std::cout << _node->key << std::endl;
 
-	if (_node->pLeft != NULL)
+	if (_node->pLeft != NULL) //Check if current node has a node on the left side
 	{
-		PrintNode(_node->pLeft);
+		PrintNode(_node->pLeft); //Call function for the left node
 	}
 
-	if (_node->pRight != NULL)
+	if (_node->pRight != NULL) //Check if current node has a node on the right side
 	{
-		PrintNode(_node->pRight);
+		PrintNode(_node->pRight); //Call function for the right node
 	}
 }
 
@@ -112,18 +112,18 @@ bool BST::FindKey(int _key) //Checks if key is found inside BST
 {
 	BSTNode* pCurrent = pRoot;
 
-	while (pCurrent != nullptr)
+	while (pCurrent != nullptr) //Loop while pCurrent is not nullptr
 	{
-		if (_key == pCurrent->key)
+		if (_key == pCurrent->key) //Check if the value is the same as the one searched
 		{
 			return true;
 		}
-		else if (_key < pCurrent->key)
+		else if (_key < pCurrent->key) //searched value is smaller than current
 		{
 			pCurrent = pCurrent->pLeft;
 			continue;
 		}
-		else
+		else //searched value is bigger than current
 		{
 			pCurrent = pCurrent->pRight;
 		}
@@ -131,16 +131,16 @@ bool BST::FindKey(int _key) //Checks if key is found inside BST
 	return false;
 }
 
-int BST::CountNodes()
+int BST::CountNodes() //Counts how many nodes the BST contains
 {
 	int numberOfNodes = CountNode(pRoot);
 
 	return numberOfNodes;
 }
 
-int BST::CountNode(BSTNode* _node)
+int BST::CountNode(BSTNode* _node) //Recursive call to count the nodes
 {
-	if (_node == nullptr)
+	if (_node == nullptr) // If node doesnt exist
 	{
 		return 0;
 	}
@@ -152,16 +152,16 @@ int BST::CountNode(BSTNode* _node)
 	return _leftCount + _rightCount + 1;
 }
 
-int BST::CountLeaves()
+int BST::CountLeaves() //Counts the leaves of the BST using recursive calls
 {
 	int numberOfLeaves = CountLeaf(pRoot);
 
 	return numberOfLeaves;
 }
 
-int BST::CountLeaf(BSTNode* _node)
+int BST::CountLeaf(BSTNode* _node) //recursive call to count leaves
 {
-	if (_node == nullptr)
+	if (_node == nullptr) //null check
 	{
 		return 0;
 	}
@@ -169,16 +169,20 @@ int BST::CountLeaf(BSTNode* _node)
 	int _leftCount = CountLeaf(_node->pLeft);
 	int _rightCount = CountLeaf(_node->pRight);
 
-	if (_node->pLeft == nullptr && _node->pRight == nullptr)
+	if (_node->pLeft == nullptr && _node->pRight == nullptr) //Leaf check if node doesnt have left or right nodes
 	{
 		return _leftCount + _rightCount + 1;
 	}
-	else
+	else //if not leaf
 	{
 		return _leftCount + _rightCount;
 	}
 }
 
+//Searches a node from the BST
+//Connects parent node to the next nodes
+// Searches a replacing node from the right side of the tree (smallest value)
+//Deletes the node
 bool BST::Delete(int _key)
 {
 	if (IsEmpty())
@@ -188,7 +192,7 @@ bool BST::Delete(int _key)
 	}
 
 	BSTNode* pCurrent = pRoot;
-	BSTNode* pPrevious = pRoot;
+	BSTNode* pPrevious = pRoot; //Parent node
 
 	while (pCurrent != nullptr)
 	{
@@ -235,11 +239,11 @@ bool BST::Delete(int _key)
 
 				pCurrent->key = pReplace->key;
 
-				if (pReplaceParent->pLeft == pReplace)
+				if (pReplaceParent->pLeft == pReplace) //Parent replace node is on the right
 				{
 					pReplaceParent->pLeft = pReplace->pRight; //Connect parent with right node
 				}
-				else
+				else //Parent replace node is NOT on the right side (if smallest value is the first node from deleted node)
 				{
 					pReplaceParent->pRight = pReplace->pRight;
 				}
@@ -251,7 +255,7 @@ bool BST::Delete(int _key)
 			//=========================NODE WITH 1 CHILD===========================
 			if (pCurrent->pLeft != nullptr) //Current node has a child node on the left side
 			{
-				if (pCurrent == pRoot)
+				if (pCurrent == pRoot) //Current node is the root with one child node
 				{
 					pRoot = pCurrent->pLeft;
 					delete pCurrent;
@@ -272,7 +276,7 @@ bool BST::Delete(int _key)
 			}
 			else if (pCurrent->pRight != nullptr) //Current node has a child node on the right side
 			{
-				if (pCurrent == pRoot)
+				if (pCurrent == pRoot) //Current node is the root with one child node
 				{
 					pRoot = pCurrent->pRight;
 					delete pCurrent;

@@ -1,2 +1,3 @@
-﻿  main.cpp
+﻿  bst.cpp
+C:\XAMK\GitHub\Algoritmeja\Algoritmit ja Tietorakenteet\Binary Search Tree\bst.cpp(61,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   Binary Search Tree.vcxproj -> C:\XAMK\GitHub\Algoritmeja\Algoritmit ja Tietorakenteet\x64\Debug\Binary Search Tree.exe
