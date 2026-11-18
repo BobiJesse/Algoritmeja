@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{46DE617E-729F-467F-B00E-E86EB580B30D}|Heap\\Heap.vcxproj|C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Heap\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{46DE617E-729F-467F-B00E-E86EB580B30D}|Heap\\Heap.vcxproj|solutionrelative:Heap\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{46DE617E-729F-467F-B00E-E86EB580B30D}|Heap\\Heap.vcxproj|C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Heap\\Heap.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{46DE617E-729F-467F-B00E-E86EB580B30D}|Heap\\Heap.vcxproj|solutionrelative:Heap\\Heap.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{46DE617E-729F-467F-B00E-E86EB580B30D}|Heap\\Heap.vcxproj|C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Heap\\heap.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{46DE617E-729F-467F-B00E-E86EB580B30D}|Heap\\Heap.vcxproj|solutionrelative:Heap\\heap.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46DE617E-729F-467F-B00E-E86EB580B30D}|Heap\\Heap.vcxproj|C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Heap\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{46DE617E-729F-467F-B00E-E86EB580B30D}|Heap\\Heap.vcxproj|solutionrelative:Heap\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Heap\\main.cpp",
               "RelativeDocumentMoniker": "Heap\\main.cpp",
@@ -39,7 +39,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "heap.h",
               "DocumentMoniker": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Heap\\heap.h",
               "RelativeDocumentMoniker": "Heap\\heap.h",
@@ -52,13 +52,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Heap.cpp",
               "DocumentMoniker": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Heap\\Heap.cpp",
               "RelativeDocumentMoniker": "Heap\\Heap.cpp",
               "ToolTip": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Heap\\Heap.cpp",
               "RelativeToolTip": "Heap\\Heap.cpp",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAqwD4AAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAD4AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-11-05T08:48:00.491Z",
               "EditorCaption": ""
