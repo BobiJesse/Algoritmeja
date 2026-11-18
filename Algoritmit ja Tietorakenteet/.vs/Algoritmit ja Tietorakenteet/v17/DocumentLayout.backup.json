@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{46DE617E-729F-467F-B00E-E86EB580B30D}|Heap\\Heap.vcxproj|C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Heap\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{46DE617E-729F-467F-B00E-E86EB580B30D}|Heap\\Heap.vcxproj|solutionrelative:Heap\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46DE617E-729F-467F-B00E-E86EB580B30D}|Heap\\Heap.vcxproj|C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Heap\\Heap.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{46DE617E-729F-467F-B00E-E86EB580B30D}|Heap\\Heap.vcxproj|solutionrelative:Heap\\Heap.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46DE617E-729F-467F-B00E-E86EB580B30D}|Heap\\Heap.vcxproj|C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Heap\\heap.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{46DE617E-729F-467F-B00E-E86EB580B30D}|Heap\\Heap.vcxproj|solutionrelative:Heap\\heap.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FD4B027F-9186-406F-840A-7DE55F7959F4}|Sorting Algorithms\\Sorting Algorithms.vcxproj|C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Sorting Algorithms\\Sorting Algorithms.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FD4B027F-9186-406F-840A-7DE55F7959F4}|Sorting Algorithms\\Sorting Algorithms.vcxproj|solutionrelative:Sorting Algorithms\\Sorting Algorithms.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Heap\\main.cpp",
-              "RelativeDocumentMoniker": "Heap\\main.cpp",
-              "ToolTip": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Heap\\main.cpp",
-              "RelativeToolTip": "Heap\\main.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADMAAAAYAAAAAAAAAA==",
+              "Title": "Sorting Algorithms.cpp",
+              "DocumentMoniker": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Sorting Algorithms\\Sorting Algorithms.cpp",
+              "RelativeDocumentMoniker": "Sorting Algorithms\\Sorting Algorithms.cpp",
+              "ToolTip": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Sorting Algorithms\\Sorting Algorithms.cpp",
+              "RelativeToolTip": "Sorting Algorithms\\Sorting Algorithms.cpp",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-11-05T09:27:48.734Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "heap.h",
-              "DocumentMoniker": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Heap\\heap.h",
-              "RelativeDocumentMoniker": "Heap\\heap.h",
-              "ToolTip": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Heap\\heap.h",
-              "RelativeToolTip": "Heap\\heap.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-11-05T08:49:16.552Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Heap.cpp",
-              "DocumentMoniker": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Heap\\Heap.cpp",
-              "RelativeDocumentMoniker": "Heap\\Heap.cpp",
-              "ToolTip": "C:\\XAMK\\GitHub\\Algoritmeja\\Algoritmit ja Tietorakenteet\\Heap\\Heap.cpp",
-              "RelativeToolTip": "Heap\\Heap.cpp",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAqwD4AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-11-05T08:48:00.491Z",
+              "WhenOpened": "2026-11-18T18:19:57.592Z",
               "EditorCaption": ""
             }
           ]
